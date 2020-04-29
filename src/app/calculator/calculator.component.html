@@ -1,0 +1,9 @@
+<p>
+calculator works!
+</p>
+
+<app-my-child [message]="parentMessage"&gt;</app-my-child&gt;
+
+<app-my-child [message]="parentMessage" 
+   (childMessage)="showMessageFromChild($event)"&gt;
+</app-my-child&gt;

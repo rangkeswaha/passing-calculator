@@ -14,6 +14,7 @@ operand1: number;
 operand2: number; 
 operator = ''; 
 calculationString = ''; 
+operatorSet;
 pressKey(key: string) {
    if (key === '/' || key === 'x' || key === '-' || key === '+') {
       const lastKey = this.mainText[this.mainText.length - 1];
